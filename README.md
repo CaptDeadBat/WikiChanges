@@ -13,17 +13,17 @@ i. Start kafka zookeeper
     		
     
 ii. Start kafka broker
-    		```
-	  	bin\windows\kafka-server-start.bat .\config\server.properties
-   		 ```
+	  	
+	bin\windows\kafka-server-start.bat .\config\server.properties
+   		
   
  iii. View all topics on the broker
-    		```
-		bin\windows\kafka-topics --list --bootstrap-server localhost:9093
-    		```
+ 
+	bin\windows\kafka-topics --list --bootstrap-server localhost:9093
+    		
   
  iv. Start kafka console consumer
-   		 ```sh
-  		bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9093 --topic topicname -property print.key=true
-    		```
-  	for each topic change the "topicname" and remove "-property print.key=true" if not needed 
+ 
+  	bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9093 --topic topicname -property print.key=true
+    		
+  for each topic change the "topicname" and remove "-property print.key=true" if not needed 
