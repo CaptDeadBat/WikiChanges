@@ -7,7 +7,7 @@ To run follow below steps:
 1. Start all Kafka resources:
 to do this run cmd inside the "kafka" folder inside "non java resources" folder, (this folder contains all kafka resources) and run the following commands:
 
-	i. Start kafka zookeeper
+i. Start kafka zookeeper
     		```
     		bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
     		```
