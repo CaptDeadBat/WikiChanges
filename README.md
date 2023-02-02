@@ -9,17 +9,17 @@ to do this run cmd inside the "kafka" folder inside "non java resources" folder,
 
 
   i. Start kafka zookeeper
-    ```sh
+    ```
   .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
     ```
     
   ii. Start kafka broker
-    ```sh
+    ```
   .\bin\windows\kafka-server-start.bat .\config\server.properties
     ```
   
   iii. View all topics on the broker
-    ```sh
+    ```
   bin\windows\kafka-topics --list --bootstrap-server localhost:9093
     ```
   
