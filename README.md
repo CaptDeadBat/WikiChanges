@@ -9,8 +9,7 @@ to do this run cmd inside the "kafka" folder inside "non java resources" folder,
 
 
 	i. Start kafka zookeeper
-    ```
-  bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+    ```bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
     ```
     
   ii. Start kafka broker
