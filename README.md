@@ -27,3 +27,8 @@ ii. Start kafka broker
   	bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9093 --topic topicname -property print.key=true
     		
   for each topic change the "topicname" and remove "-property print.key=true" if not needed 
+  
+  
+2. Open the main folder in intellij and run all the java applications in order
+
+3. Open the "wiki-changes" folder inside "React" folder using vscode, open terminal and run "npm start"
