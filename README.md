@@ -12,7 +12,7 @@ i. Start kafka zookeeper
     	bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
     		
     
-	ii. Start kafka broker
+ii. Start kafka broker
     		```
 	  	bin\windows\kafka-server-start.bat .\config\server.properties
    		 ```
